@@ -1,1 +1,2 @@
-https://github.com/SevrynOrmson/wwd130_clarkjones/
+This is the live cite:
+https://sevrynormson.github.io/wwd130_clarkjones/
