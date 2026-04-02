@@ -1,0 +1,200 @@
+<!--
+Back of the Frosted Flakes Cereal Box
+Made by: Blake
+Sources:
+1: Had to look up how to make items take up more columns in tables:https://www.w3schools.com/html/html_table_colspan_rowspan.asp
+2: Used copilot to figure out why one of my classes weren't being added. And also to speed up making the tablr
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back of the Box</title>
+</head>
+
+<body>
+    <header class="heading">
+        <h5>Frosted Flakes Cereal</h5>
+        <nav class="navigation">
+            <a href="./index.html" class="front">Front</a>
+            <a href="./back.html" class="back">Back</a>
+            <a href="./side.html" class="side">Side</a>
+        </nav>
+    </header>
+
+    <section id="section_1">
+        <table class="table1">
+            <!--After doing the first third I used Copilot to speed it up because there was a lot of data to input into the table I still manually set the classes for each though-->
+            <tr>
+                <th colspan="3">Nutrition Facts/Datos de Nutrición</th>
+            </tr>
+            <tr class="top_border">
+                <td class="close" colspan="3">
+                    About 13 servings per container/approx. 13 raciones por envase
+                </td>
+            </tr>
+            <!---Used Copilot to figure out how to add multiple classes-->
+            <tr class="no_border bold">
+                <td>Serving size/Tamaño</td>
+                <td colspan="2">1 Cup/1 Taza (37g)</td>
+            </tr>
+            <tr class="fill_black">
+                <td colspan="3"></td>
+            </tr>
+            <tr class="small_text bold">
+                <td>Amount per serving/Cantidad por ración</td>
+                <td class="side_border">Cereal/CEREAL</td>
+                <td>With 3/4 cup skim milk/Con 3/4 taza de leche descremada</td>
+            </tr>
+            <tr class="big_text bold">
+                <td>Calories/Calorías</td>
+                <td class="side_border">130</td>
+                <td>200</td>
+            </tr>
+            <tr class="fill_black">
+                <td colspan="3"></td>
+            </tr>
+            <tr class="bold">
+                <td></td>
+                <td class="side_border">% DV*/% VD*</td>
+                <td>% DV*/% VD*</td>
+            </tr>
+            <tr>
+                <td>Total Fat / Grasas Totales</td>
+                <td class="side_border">0 g (0%)</td>
+                <td>0g  0%</td>
+            </tr>
+            <tr>
+                <td>Saturated Fat / Grasas Saturadas</td>
+                <td class="side_border">0 g (0%)</td>
+                <td>0g 0%</td>
+            </tr>
+            <tr>
+                <td>Trans Fat / Grasas Trans</td>
+                <td class="side_border">0 g</td>
+                <td>0g</td>
+            </tr>
+            <tr>
+                <td>Polyunsaturated Fat / Grasas Poliinsaturadas</td>
+                <td class="side_border">0 g</td>
+                <td>0g</td>
+            </tr>
+            <tr>
+                <td>Monounsaturated Fat / Grasas Monoinsaturadas</td>
+                <td class="side_border">0 g</td>
+                <td>0g</td>
+            </tr>
+            <tr>
+                <td>Cholesterol / Colesterol</td>
+                <td class="side_border">0 mg (0%)</td>
+                <td><5mg    1%</td>
+            </tr>
+            <tr>
+                <td>Sodium / Sodio</td>
+                <td class="side_border">190 mg (8%)</td>
+                <td>270mg 12%</td>
+            </tr>
+            <tr>
+                <td>Total Carbohydrate / Carbohidratos Totales</td>
+                <td class="side_border">33 g (12%)</td>
+                <td>42g 15%</td>
+            </tr>
+            <tr>
+                <td>Dietary Fiber / Fibra Dietética</td>
+                <td class="side_border">1g 4%</td>
+                <td>1g 4%</td>
+            </tr>
+            <tr>
+                <td>Total Sugars / Azúcares Totales</td>
+                <td class="side_border">12g</td>
+                <td>22g</td>
+            </tr>
+            <tr>
+                <td>Includes 12 g Added Sugars / Incluye 12 g de Azúcares Añadidos</td>
+                <td class="side_border">12g 24%</td>
+                <td>12g 24%</td>
+            </tr>
+            <tr>
+                <td>Protein / Proteínas</td>
+                <td class="side_border">2g</td>
+                <td>8g</td>
+            </tr>
+            <tr class="fill_black">
+                <td colspan="3"></td>
+            </tr>
+            <tr>
+                <td>Vitamin D / Vitamina D</td>
+                <td class="side_border">2mcg 10%</td>
+                <td>4.2 mcg 20%</td>
+            </tr>
+            <tr>
+                <td>Calcium / Calcio</td>
+                <td class="side_border">0 mg 0%</td>
+                <td>220mg 15%</td>
+            </tr>
+            <tr>
+                <td>Iron / Hierro</td>
+                <td class="side_border">7.2 mg 40%</td>
+                <td>7.2 mg 40%</td>
+            </tr>
+            <tr>
+                <td>Potassium / Potasio</td>
+                <td class="side_border">30 mg (0%)</td>
+                <td>320mg 6%</td>
+            </tr>
+            <tr>
+                <td>Thiamin / Tiamina</td>
+                <td class="side_border">20%</td>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <td>Riboflavin / Riboflavina</td>
+                <td class="side_border">20%</td>
+                <td>45%</td>
+            </tr>
+            <tr>
+                <td>Niacin / Niacina</td>
+                <td class="side_border">20%</td>
+                <td>25%</td>
+            </tr>
+            <tr>
+                <td>Vitamin B6 / Vitamina B6</td>
+                <td class="side_border">20%</td>
+                <td>20%</td>
+            </tr>
+            <tr class="no_border">
+                <td>Folate /Folato</td>
+                <td class="side_border">30%</td>
+                <td>30%</td>
+            </tr>
+            <tr>
+                <td>(folic acid /ácido fólico)</td>
+                <td class="side_border">(70 mcg)</td>
+                <td>(70mcg)</td>
+            </tr>
+            <tr>
+                <td>Vitamin B12 / Vitamina B12</td>
+                <td class="side_border">20%</td>
+                <td>50%</td>
+            </tr>
+            <tr class="fill_black">
+                <td colspan="3"></td>
+            </tr>
+            <tr class="small_text">
+                <td colspan="3">
+                    The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily
+                    diet.
+                    2,000 calories a day is used for general nutrition advice. /
+                    El % Valor Diario (VD) le indica cuánto contribuye un nutriente en una porción de alimento a la
+                    dieta diaria.
+                    Se utilizan 2,000 calorías al día como guía general de nutrición.
+                </td>
+            </tr>
+        </table>
+    </section>
+</body>
+
+</html>
